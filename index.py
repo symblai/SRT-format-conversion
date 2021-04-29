@@ -75,7 +75,7 @@ def checkMessages(conversationId, key):
     job_complition = res1.json()
     #print(job_complition)
     startPoint = getConversationStart(conversationId, key)
-    df = convertToSRT(job_complition,startPoint)
+    convertToSRT(job_complition,startPoint)
     return
 
 
