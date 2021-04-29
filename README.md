@@ -9,7 +9,7 @@ Convert Symbl's conversation messages to SRT format file
 * Once you have a converstionId the script will run Two APIs: "conversations" and "messages"
 * conversations API will get the initial startTime
 * messages API will get the startTime, endTime and text for all of the messages
-* Calculation of time differnt from the messages startTime and endTime will be done vs. the conversations startTime. 
+* Calculation of time difference from the messages startTime and endTime will be done vs. the conversations startTime. 
 
 # How to Install:
 * git clone https://github.com/symblai/convert-messages-to-SRT-format
