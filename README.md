@@ -9,12 +9,12 @@ Symbl's APIs empower developers to enable:
 <hr />
 
 
-# Pre-requisites 
+## Pre-requisites 
 * Python
 * Terminal
 
 
-# Feature 
+## Feature 
 Convert Symbl.ai's conversation data into the SRT file format. 
 
 ## Setup and Deploy
@@ -27,7 +27,7 @@ Convert Symbl.ai's conversation data into the SRT file format.
 7. Save the file.
 8. Run the file `python index.py` in your terminal.
 
-# Conclusion:
+## Conclusion:
 Here is a breakdown of what happens. 
 
 * With the `converstionId` the script makes two API calls: `/conversations` and `/messages`
@@ -36,3 +36,20 @@ Here is a breakdown of what happens.
 * A calculation of time difference from the messages startTime and endTime is created vis-a-vis the conversation's `startTime`. 
 
 Here is what you get: As a user you convert Symbl.ai's conversation data into the SRT file format..
+
+## Community
+
+If you have any questions, feel free to reach out to us at devrelations@symbl.ai or through our [Community Slack][slack] or our [forum][developer_community].
+
+This guide is actively developed, and we love to hear from you! Please feel free to [create an issue][issues] or [open a pull request][pulls] with your questions, comments, suggestions and feedback.  If you liked our integration guide, please star our repo!
+
+This library is released under the [Apache License][license]
+
+[license]: LICENSE.txt
+[telephony]: https://docs.symbl.ai/docs/telephony/overview/post-api
+[websocket]: https://docs.symbl.ai/docs/streamingapi/overview/introduction
+[developer_community]: https://community.symbl.ai/?_ga=2.134156042.526040298.1609788827-1505817196.1609788827
+[slack]: https://join.slack.com/t/symbldotai/shared_invite/zt-4sic2s11-D3x496pll8UHSJ89cm78CA
+[signup]: https://platform.symbl.ai/?_ga=2.63499307.526040298.1609788827-1505817196.1609788827
+[issues]: https://github.com/symblai/symbl-devtool-SRT-format-converter/issues
+[pulls]: https://github.com/symblai/symbl-devtool-SRT-format-converter/pulls
